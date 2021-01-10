@@ -1,16 +1,18 @@
 import Link from "next/link";
-import Head from "next/head"
+import Head from "next/head";
 
 export default function FirstPost() {
   return (
     <>
-    <Head>
+      <Head>
         <title>first post</title>
-    </Head>
-      <h1>First Post</h1>
+      </Head>
+      <main>
+        <h1>First Post</h1>
         <Link href="/">
           <a>back to home</a>
         </Link>
+      </main>
     </>
   );
 }
